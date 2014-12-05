@@ -9,27 +9,17 @@ recipes:
 # settings
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
-- sprout-terminal
-- sprout-terminal::update_font
-- sprout-ssh::known_hosts_github
 
 # development (general)
 - sprout-base::workspace_directory
-- sprout-git
-- sprout-git::default_editor
-- sprout-git::projects
-- sprout-git::git_scripts
 
 # development (rails)
-- sprout-rbenv
 - sprout-ruby
-- sprout-mysql
-- sprout-postgresql
 
 # apps
-- sprout-osx-apps::iterm2
-- sprout-osx-apps::flycut
-- sprout-osx-apps::shiftit
+#- sprout-osx-apps::iterm2
+#- sprout-osx-apps::flycut
+#- sprout-osx-apps::shiftit
 
 # apps (editors)
 - sprout-osx-apps::textmate_bundles
@@ -57,8 +47,6 @@ node_attributes:
         -
           name: sprout-wrap
           url: https://github.com/pivotal-sprout/sprout-wrap.git
-    terminal:
-      default_profile: 'Pro'
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
@@ -69,31 +57,11 @@ node_attributes:
       magnification': false
     homebrew:
       formulae:
-        - ctags-exuberant
-        - ag
-        - chromedriver
         - imagemagick
         - node
-        - pstree
-        - qt
-        - ssh-copy-id
-        - tmux
-        - tree
-        - watch
         - wget
-        - rbenv-binstubs
-        - rbenv-gem-rehash
       casks:
-        - ccmenu
         - firefox
-        - gitx-rowanj
-        - github
         - google-chrome
-        - google-drive
-        - google-hangouts
-        - skype
         - textmate
-        - vagrant
-        - virtualbox
         - xquartz
-        - xscope

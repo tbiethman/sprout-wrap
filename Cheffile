@@ -9,10 +9,10 @@ cookbook 'sprout-base',
   :github => 'pivotal-sprout/sprout-base'
 
 cookbook 'sprout-osx-apps',
-  :github => 'https://github.com/tb021781/sprout-osx-apps'
+  :github => 'tbiethman/sprout-osx-apps'
 
 cookbook 'sprout-osx-settings',
-  :github => 'https://github.com/tb021781/sprout-osx-settings'
+  :github => 'tbiethman/sprout-osx-settings'
 
 cookbook 'osx',
   :github => 'pivotal-sprout/osx'
@@ -21,7 +21,10 @@ cookbook 'sprout-rubymine',
   :github => 'pivotal-sprout/sprout-rubymine'
 
 cookbook 'sprout-homebrew',
-  :github => 'https://github.com/tb021781/sprout-homebrew'
+  :github => 'tbiethman/sprout-homebrew'
 
 cookbook 'sprout-terminal',
   :github => 'pivotal-sprout/sprout-terminal'
+
+cookbook 'sprout-ssh',
+  :github => 'pivotal-sprout/sprout-ssh'
