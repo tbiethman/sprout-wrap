@@ -12,7 +12,8 @@ cookbook 'sprout-osx-apps',
   :github => 'tbiethman/sprout-osx-apps'
 
 cookbook 'sprout-osx-settings',
-  :github => 'tbiethman/sprout-osx-settings'
+  :github => 'tbiethman/sprout-osx-settings',
+  :ref => 'test_config'
 
 cookbook 'osx',
   :github => 'pivotal-sprout/osx'

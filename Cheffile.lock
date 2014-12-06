@@ -75,7 +75,7 @@ GIT
 GIT
   remote: https://github.com/tbiethman/sprout-osx-settings
   ref: test_config
-  sha: 6083f771f4f80b25dae9fd40784599ee5c578a09
+  sha: aa7c408d09b333888df5901b7848a6d3db4ba5fc
   specs:
     sprout-osx-settings (0.1.0)
       homebrew (>= 0.0.0)
