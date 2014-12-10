@@ -29,3 +29,7 @@ cookbook 'sprout-terminal',
 
 cookbook 'sprout-ssh',
   :github => 'pivotal-sprout/sprout-ssh'
+
+cookbook 'sprout-build-automation',
+  :git => 'http://github.cerner.com/tb021781/sprout-build-automation.git',
+  :ref => 'master'

@@ -2,7 +2,15 @@ SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
     dmg (2.2.2)
-    homebrew (1.9.2)
+    homebrew (1.10.0)
+
+GIT
+  remote: http://github.cerner.com/tb021781/sprout-build-automation.git
+  ref: master
+  sha: 7d72ebde874ac7e1a5fca69b437306584b5ebb73
+  specs:
+    sprout-build-automation (0.1.0)
+      sprout-base (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -85,6 +93,7 @@ GIT
 DEPENDENCIES
   osx (>= 0)
   sprout-base (>= 0)
+  sprout-build-automation (>= 0)
   sprout-homebrew (>= 0)
   sprout-osx-apps (>= 0)
   sprout-osx-settings (>= 0)
