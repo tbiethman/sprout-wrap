@@ -21,8 +21,14 @@ def execute_sprout_setup
   puts 'Installing bundler'
   system("gem install bundler")
 
-  puts 'Running sprout setup'
-  system("bundle exec soloist")
+  repository_url = 'http://github.com/tbiethman/sprout-wrap.git sprout-wrap-test'
+  puts "Cloning #{repository_url}"
+  system("git clone #{repository_url}")
+
+  Dir.chdir("sprout-wrap-test") do |variable|
+	puts 'Running sprout setup'
+  	system("bundle exec soloist")
+  end
 end
 
 install_command_line_tools()
