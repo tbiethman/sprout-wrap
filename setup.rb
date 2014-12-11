@@ -24,10 +24,11 @@ def execute_sprout_setup
   repository_url = 'http://github.com/tbiethman/sprout-wrap.git sprout-wrap-test'
   puts "Cloning #{repository_url}"
   system("git clone #{repository_url}")
-  system("git checkout -b test_config")
-  sysetm("git pull origin test_config")
 
   Dir.chdir("sprout-wrap-test") do |variable|
+  	system("git checkout -b test_config")
+    system("git pull origin test_config")
+
 	puts 'Running sprout setup'
   	system("bundle exec soloist")
   end
