@@ -25,7 +25,7 @@ def execute_sprout_setup
   puts "Cloning #{repository_url}"
   system("git clone #{repository_url}")
   system("git checkout -b test_config")
-  sysetm("git pull origin test_config"))
+  sysetm("git pull origin test_config")
 
   Dir.chdir("sprout-wrap-test") do |variable|
 	puts 'Running sprout setup'
