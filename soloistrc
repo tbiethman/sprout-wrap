@@ -14,8 +14,8 @@ recipes:
 # development (general)
 - sprout-base::workspace_directory
 #- sprout-build-automation::java
-#- sprout-build-automation::rvm
-#- sprout-build-automation::cocaopods 
+- sprout-build-automation::rvm
+- sprout-build-automation::cocoapods 
 
 # development (rails)
 - sprout-ruby
@@ -29,7 +29,7 @@ recipes:
 #- sprout-build-automation::dock-setup
 
 # development environment configuration
-#- sprout-build-automation::
+#- sprout-build-automation::ion-build-setup
 
 node_attributes:
   sprout:
