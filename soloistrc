@@ -55,3 +55,16 @@ node_attributes:
       default_profile: 'Pro'
     settings:
       clock_format: EEE MMM d  h:mm:ss a
+    homebrew:
+      formulae:
+        - graphviz
+        - imagemagick
+        - ghostscript
+        - jenkins
+        - java
+      casks:
+        - firefox
+        - google-chrome
+        - textmate
+        - xquartz
+
