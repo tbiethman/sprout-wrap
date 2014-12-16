@@ -61,10 +61,11 @@ node_attributes:
         - imagemagick
         - ghostscript
         - jenkins
-        - java
       casks:
         - firefox
         - google-chrome
         - textmate
         - xquartz
+        - java
+
 
