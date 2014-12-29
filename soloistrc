@@ -23,7 +23,7 @@ recipes:
 # apps (editors)
 - sprout-osx-apps::macvim
 - sprout-rubymine
-#- sprout-build-automation::xcode
+- sprout-build-automation::xcode
 
 # dock configuration
 #- sprout-build-automation::dock-setup
