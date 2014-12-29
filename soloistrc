@@ -7,23 +7,23 @@ recipes:
 - sprout-homebrew
 
 # settings
-- sprout-osx-settings
-- sprout-terminal
-- sprout-terminal::update_font
+# - sprout-osx-settings
+# - sprout-terminal
+# - sprout-terminal::update_font
 
 # development (general)
 - sprout-base::workspace_directory
 #- sprout-build-automation::java
 - sprout-build-automation::rvm
-- sprout-build-automation::cocoapods 
+#- sprout-build-automation::cocoapods 
 
 # development (rails)
-- sprout-ruby
+#- sprout-ruby
 
 # apps (editors)
-- sprout-osx-apps::macvim
-- sprout-rubymine
-- sprout-build-automation::xcode
+#- sprout-osx-apps::macvim
+#- sprout-rubymine
+#- sprout-build-automation::xcode
 
 # dock configuration
 #- sprout-build-automation::dock-setup
@@ -57,15 +57,15 @@ node_attributes:
       clock_format: EEE MMM d  h:mm:ss a
     homebrew:
       formulae:
-        - graphviz
-        - imagemagick
-        - ghostscript
-        - jenkins
+#        - graphviz
+#        - imagemagick
+#        - ghostscript
+#        - jenkins
       casks:
         - firefox
         - google-chrome
         - textmate
-        - xquartz
-        - java
+#        - xquartz
+#        - java
 
 
