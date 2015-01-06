@@ -2,7 +2,7 @@ recipes:
 
 # base (required by sprout)
 - sprout-base
-- sprout-base::bash_it
+#- sprout-base::bash_it
 - sprout-base::homebrew
 - sprout-homebrew
 
@@ -13,7 +13,7 @@ recipes:
 
 # development (general)
 - sprout-base::workspace_directory
-#- sprout-build-automation::java
+- sprout-build-automation::java
 - sprout-build-automation::rvm
 - sprout-build-automation::cocoapods 
 
@@ -21,15 +21,14 @@ recipes:
 - sprout-ruby
 
 # apps (editors)
-- sprout-osx-apps::macvim
 - sprout-rubymine
-- sprout-build-automation::xcode
+#- sprout-build-automation::xcode
 
 # dock configuration
-#- sprout-build-automation::dock-setup
+- sprout-build-automation::dock-setup
 
 # development environment configuration
-#- sprout-build-automation::ion-build-setup
+- sprout-build-automation::ion-build-setup
 
 node_attributes:
   sprout:

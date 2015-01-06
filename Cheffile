@@ -32,4 +32,4 @@ cookbook 'sprout-ssh',
 
 cookbook 'sprout-build-automation',
   :git => 'http://github.cerner.com/tb021781/sprout-build-automation.git',
-  :ref => 'master'
+  :ref => 'cleanup'
